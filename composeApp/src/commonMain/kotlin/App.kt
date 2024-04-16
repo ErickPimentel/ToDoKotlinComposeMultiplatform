@@ -4,7 +4,10 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
+import cafe.adriel.voyager.navigator.Navigator
+import cafe.adriel.voyager.transitions.SlideTransition
 import org.jetbrains.compose.ui.tooling.preview.Preview
+import presentation.screen.home.HomeScreen
 
 val lightRedColor = Color(color = 0xFFF57D88)
 val darkRedColor = Color(color = 0xFF77000B)
@@ -32,6 +35,8 @@ fun App() {
     )
 
     MaterialTheme (colorScheme = colorScheme) {
-
+        Navigator(HomeScreen()){
+            SlideTransition(it)
+        }
     }
 }
