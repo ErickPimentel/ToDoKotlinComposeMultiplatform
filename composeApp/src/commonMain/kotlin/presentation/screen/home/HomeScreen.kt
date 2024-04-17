@@ -144,7 +144,7 @@ fun DisplayTasks(
                     showDialog = false
                     taskToDelete = null
                 }){
-
+                    Text(text = "Yes")
                 }
             },
             dismissButton = {
