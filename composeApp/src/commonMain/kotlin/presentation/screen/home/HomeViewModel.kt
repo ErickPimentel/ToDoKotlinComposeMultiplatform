@@ -5,9 +5,9 @@ import androidx.compose.runtime.mutableStateOf
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import data.MongoDB
-import domain.RequestState
-import domain.TaskAction
-import domain.ToDoTask
+import domain.state.RequestState
+import domain.action.TaskAction
+import domain.model.ToDoTask
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
 import kotlinx.coroutines.delay

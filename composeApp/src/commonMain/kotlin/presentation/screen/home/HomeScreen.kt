@@ -33,9 +33,9 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.getScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import domain.RequestState
-import domain.TaskAction
-import domain.ToDoTask
+import domain.state.RequestState
+import domain.action.TaskAction
+import domain.model.ToDoTask
 import presentation.components.ErrorComponent
 import presentation.components.LoadingComponent
 import presentation.components.TaskView

@@ -1,7 +1,7 @@
 package data
 
-import domain.RequestState
-import domain.ToDoTask
+import domain.state.RequestState
+import domain.model.ToDoTask
 import io.realm.kotlin.Realm
 import io.realm.kotlin.RealmConfiguration
 import io.realm.kotlin.ext.query

@@ -1,4 +1,4 @@
-package domain
+package domain.state
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope

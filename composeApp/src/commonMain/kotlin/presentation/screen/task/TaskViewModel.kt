@@ -3,8 +3,8 @@ package presentation.screen.task
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import data.MongoDB
-import domain.TaskAction
-import domain.ToDoTask
+import domain.action.TaskAction
+import domain.model.ToDoTask
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
 import kotlinx.coroutines.launch

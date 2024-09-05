@@ -1,4 +1,6 @@
-package domain
+package domain.action
+
+import domain.model.ToDoTask
 
 sealed class TaskAction {
     data class Add(val task: ToDoTask) : TaskAction()
